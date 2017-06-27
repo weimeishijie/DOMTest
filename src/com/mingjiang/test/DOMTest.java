@@ -29,7 +29,7 @@ public class DOMTest {
             System.out.println("一共有"+bookList.getLength()+"本书");
 
 
-            //遍历每个book节点在不知道xml内容的时候用一下方法：
+            //遍历每个book节点在不知道xml内容的时候用的方法：
             for(int i=0;i<bookList.getLength();i++){
                 System.out.println("=================下面开始遍历第"+(i+1)+"本书的内容================================");
 
@@ -80,8 +80,6 @@ public class DOMTest {
                 System.out.println("id属性的值为："+attrValue);
             }
              */
-
-
 
 
         } catch (ParserConfigurationException e) {
